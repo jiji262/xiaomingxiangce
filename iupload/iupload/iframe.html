@@ -1,0 +1,70 @@
+<!DOCTYPE html id="iframeHtml">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Uploader</title>
+</head>
+<style type="text/css" media="screen">
+#iframeHtml,#iframeBody{
+  margin:0;
+  padding:0;
+  background:transparent;
+  display:block;
+  width:100%;
+  height:100%;
+}
+#iframeBody input[type=button],
+#iframeBody form,
+#iframeBody #status,
+#iframeBody #container{
+  display:block;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+
+}
+
+#iframeBody #container{
+  display:block;
+  overflow:hidden;
+}
+
+#iframeBody input[type=button]{
+  border:1px solid #ccc;
+  background-color:#efefef;
+  font-family:"Helvetica",Arial,sans-serif;
+  color:black;
+  font-weight:bold;
+  font-size:14px;
+  cursor: pointer;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1;
+}
+
+#iframeBody input[type=button]:hover{
+  background-color:#dfdfdf;
+}
+
+#iframeBody #status{
+  background-image: url(spinner.gif);
+  background-position: center center;
+  background-repeat:no-repeat;
+  text-align:center;
+}
+
+
+</style>
+
+<body id="iframeBody">
+  <div id="container">
+    <form action="" method="POST" accept-charset="utf-8" enctype="multipart/form-data">
+      <input type="button" value="">
+      <input type="file" name="">
+    </form>
+    <div id="status"></div>
+  </div>
+</body>
+</html>
