@@ -1,9 +1,9 @@
 <?php
 //AK 公钥
-define ( 'BCS_AK', 'gMp6NDY1bXDGzL4wNqYIFG6i' );
+define ( 'BCS_AK', '' );
 //SK 私钥
-define ( 'BCS_SK', 'GSUwEGOyEdADdfqPEdCfjIPDq2MchyVe' );
-define ( 'BUCKET', 'xiaoming' );
+define ( 'BCS_SK', '' );
+define ( 'BUCKET', '' );
 //superfile 每个object分片后缀
 define ( 'BCS_SUPERFILE_POSTFIX', '_bcs_superfile_' );
 //sdk superfile分片大小 ，单位 B（字节）
